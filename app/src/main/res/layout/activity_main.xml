@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="me.biubiubiu.flipperview.app.MainActivity">
+
+    <me.biubiubiu.flipperview.library.FlipperView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@id/positive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#66ccff"
+            />
+
+        <View
+            android:id="@id/negative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aaaaaa"
+            />
+
+    </me.biubiubiu.flipperview.library.FlipperView>
+
+</RelativeLayout>
